@@ -111,10 +111,6 @@
 
         <div class="card card-body py-5">
           <h3>My Skills</h3>
-          <!-- <p>
-            I am a fullstack software developer with a background of
-            bioinformatics and data mining.
-          </p> -->
           <hr />
           <h4>Angular</h4>
           <div class="progress mb-3">
@@ -598,6 +594,7 @@
                   type="text"
                   class="form-control bg-dark text-white"
                   placeholder="Name"
+                  value="Mikyung Lee"
                 />
               </div>
             </div>
@@ -613,29 +610,10 @@
                   type="email"
                   class="form-control bg-dark text-white"
                   placeholder="Email"
+                  value="mikyung.lee11@gmail.com"
                 />
               </div>
             </div>
-
-            <div class="form-group">
-              <div class="input-group input-group-lg">
-                <div class="input-group-prepend">
-                  <span class="input-group-text bg-danger text-white">
-                    <i class="fas fa-pencil-alt"></i>
-                  </span>
-                </div>
-                <textarea
-                  class="form-control bg-dark text-white"
-                  placeholder="Name"
-                ></textarea>
-              </div>
-            </div>
-
-            <input
-              type="submit"
-              value="Submit"
-              class="btn btn-danger btn-block btn-lg"
-            />
           </form>
         </div>
       </div>
@@ -671,6 +649,7 @@
 
     <script>
       $(".port-item").click(function() {
+        console.log('xxx');
         $(".collapse").collapse("hide");
       });
       $(document).on("click", '[data-toggle="lightbox"]', function(e) {
